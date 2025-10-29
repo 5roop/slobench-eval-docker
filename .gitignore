@@ -1,5 +1,5 @@
 __pycache__
 .idea
-
+.DS_Store
 evaluation_scripts/*/reference_dataset.zip
 evaluation_scripts/*/submission.zip
