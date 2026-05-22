@@ -86,9 +86,9 @@ def evaluate_pair(
 
 def evaluate(reference_dataset_path, data_submission_path):
 
-    print(
-        f"""{list(Path(reference_dataset_path).iterdir())=}\n\n\n{list(Path(data_submission_path).iterdir())=}\n"""
-    )
+    # print(
+    #     f"""{list(Path(reference_dataset_path).iterdir())=}\n\n\n{list(Path(data_submission_path).iterdir())=}\n"""
+    # )
     submission_art = Path(data_submission_path, "ROG-Art.rttm")
     submission_dialog = Path(data_submission_path, "ROG-Dialog.rttm")
     # references_art_s = Path(reference_dataset_path, "ROG-Art-gold_standard.rttm")
@@ -105,7 +105,7 @@ def evaluate(reference_dataset_path, data_submission_path):
     artt = evaluate_pair(
         gold_rttm_path=references_art_t,
         predicted_rttm_path=submission_art,
-        suffix="_Rog-Art",
+        suffix="_ROG-Art",
     )
 
     return {**artt, **diat}
