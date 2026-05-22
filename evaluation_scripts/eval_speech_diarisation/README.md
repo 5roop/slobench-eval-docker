@@ -27,10 +27,10 @@ reported as percentages:
 
 ```json
 {
-    "DER_Rog-Art": 44.33,
-    "MISS_Rog-Art": 30.53,
-    "FA_Rog-Art": 1.75,
-    "CONF_Rog-Art": 12.05,
+    "DER_ROG-Art": 44.33,
+    "MISS_ROG-Art": 30.53,
+    "FA_ROG-Art": 1.75,
+    "CONF_ROG-Art": 12.05,
     "DER_ROG-Dialog": 21.86,
     "MISS_ROG-Dialog": 8.55,
     "FA_ROG-Dialog": 4.24,
