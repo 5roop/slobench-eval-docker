@@ -47,7 +47,7 @@ numpy==2.2.6 ; python_full_version < '3.11'
     #   scipy
     #   seaborn
     #   soundfile
-numpy==2.4.4 ; python_full_version >= '3.11'
+numpy<2.4.0 ; python_full_version >= '3.11'
     # via
     #   contourpy
     #   diarisation-benchmark-evaluation
