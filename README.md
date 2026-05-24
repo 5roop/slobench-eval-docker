@@ -73,6 +73,7 @@ This repository supports the following tasks:
 * **eval\_translation\_sl**: Machine translation evaluation (Slovene target).
 * **eval\_sequence\_pair\_classification**: Sequence pair classification evaluation.
 * **eval\_speech\_recognition**: Automated speech recognition evaluation.
+* **eval\_speech\_diarisation**: Speech diarisation evaluation.
 * **eval_sloprageval**: Pragmatics understanding in a multiple-choice question-answering (MCQA) task.
 * **eval_pragmegaeval**: Understanding Metaphor, Irony, and Humour in a multiple-choice question-answering (MCQA) task.
 * **eval_dialect_copa**: Choice of Plausible Alternatives (COPA) datasets to compare models' performances on standard Slovenian and on a dialect from the Cerkno dialect group. 

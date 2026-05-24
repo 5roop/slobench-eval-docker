@@ -16,5 +16,5 @@ COPY . .
 COPY evaluation_scripts/eval_speech_diarisation/evaluate.py ./evaluate.py
 COPY run.py ./run.py
 
-ENTRYPOINT ["python", "run.py"]
+ENTRYPOINT ["python", "-W", "ignore", "run.py"]
 
