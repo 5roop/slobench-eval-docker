@@ -95,7 +95,10 @@ def evaluate(reference_dataset_path, data_submission_path):
     references_art_t = Path(reference_dataset_path, "ROG-Art-gold_trimmed.rttm")
     # references_dialog_s = Path(reference_dataset_path, "ROG-Dialog-gold_standard.rttm")
     references_dialog_t = Path(reference_dataset_path, "ROG-Dialog-gold_trimmed.rttm")
-    assert submission_art.exists() & submission_art.exists()
+    assert submission_art.exists(), "ROG-Art submission file not found!"
+    assert submission_dialog.exists(), "ROG-Dialog submission file not found"
+    assert references_art_t.exists(), "ROG-Art references file not found!"
+    assert references_dialog_t.exists(), "ROG-Dialog references file not found!"
 
     diat = evaluate_pair(
         gold_rttm_path=references_dialog_t,
